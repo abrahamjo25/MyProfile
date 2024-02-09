@@ -3,14 +3,14 @@ import { Resend } from "resend";
 import { NextResponse } from "next/server";
 import MessageUsEmail from "@/components/EmailMessage";
 
-const resend = new Resend("re_WRyJxdv2_GYa6iTQCagnJ8tzWcFM1XWro");
+const resend = new Resend("re_7pdoNfYe_Avr5ked9ryJDsSuHtv9Fjq9Z");
 
 export async function POST(req) {
   const { name, email, message } = await req.json();
 
   try {
     const data = await resend.emails.send({
-      from: "Acme <onboarding@resend.dev>",
+      from: email,
       to: `abirham.johannes@gmail.com`,
       subject: `${name} has a message!`,
       react: MessageUsEmail({ name, email, message }),

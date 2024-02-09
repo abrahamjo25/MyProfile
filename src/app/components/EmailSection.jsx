@@ -64,67 +64,24 @@ const EmailSection = () => {
           </Link>
         </div>
       </div>
-      <div>
-        {emailSubmitted ? (
-          <p className="text-green-500 text-sm mt-2">
-            Email sent successfully!
-          </p>
-        ) : (
-          <form className="flex flex-col" onSubmit={handleSubmit}>
-            <div className="mb-6">
-              <label
-                htmlFor="email"
-                className="text-white block mb-2 text-sm font-medium"
-              >
-                Your email
-              </label>
-              <input
-                name="email"
-                type="email"
-                id="email"
-                required
-                className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="email@google.com"
-              />
-            </div>
-            <div className="mb-6">
-              <label
-                htmlFor="subject"
-                className="text-white block text-sm mb-2 font-medium"
-              >
-                Subject
-              </label>
-              <input
-                name="subject"
-                type="text"
-                id="subject"
-                required
-                className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="Just saying hi"
-              />
-            </div>
-            <div className="mb-6">
-              <label
-                htmlFor="message"
-                className="text-white block text-sm mb-2 font-medium"
-              >
-                Message
-              </label>
-              <textarea
-                name="message"
-                id="message"
-                className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="Let's talk about..."
-              />
-            </div>
-            <button
-              type="submit"
-              className="bg-cyan-500 hover:bg-blue-600 text-white font-medium py-2.5 px-5 rounded-lg w-full"
-            >
-              Send Message
+      <div className="">
+        <h3>
+          <Link href={`mailto:abirham.johannes@gmail.com`}>
+            <button className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-cyan-500 to-blue-500 hover:bg-slate-200 text-white">
+              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+                Email
+              </span>
             </button>
-          </form>
-        )}
+          </Link>
+
+          <Link href="tel:+251921175520">
+            <button className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-cyan-500 to-blue-500 hover:bg-slate-200 text-white">
+              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+                Call
+              </span>
+            </button>
+          </Link>
+        </h3>
       </div>
     </section>
   );
