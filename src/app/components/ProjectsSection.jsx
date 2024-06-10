@@ -28,12 +28,14 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "Coaching Training System",
+    title:
+      "Ethiopian Airlines Employee promotion and competative achievment Coaching Training System",
     description:
       "A project created for Ethiopian airlines Employees coaching training process for promotion and competitve achievement",
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
-    gitUrl: "https://ethiopianairlines.visualstudio.com/Corporate%20Coaching/_git/Coaching%20V2%20UI",
+    gitUrl:
+      "https://ethiopianairlines.visualstudio.com/Corporate%20Coaching/_git/Coaching%20V2%20UI",
     previewUrl: "https://etgcoaching.ethiopianairlines.com/",
   },
   {
