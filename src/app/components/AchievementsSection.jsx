@@ -16,12 +16,8 @@ const achievementsList = [
     postfix: "+",
   },
   {
-    metric: "Awards",
-    value: "7",
-  },
-  {
     metric: "Years",
-    value: new Date().getFullYear() - new Date("08/17/2022").getFullYear(),
+    value: new Date().getFullYear() - new Date("08/17/2021").getFullYear(),
     postfix: "+",
   },
 ];

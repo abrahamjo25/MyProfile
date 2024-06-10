@@ -5,32 +5,36 @@ import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
 
 const projectsData = [
-  // {
-  //   id: 1,
-  //   title: "React Portfolio Website",
-  //   description: "Project 1 description",
-  //   image: "/images/projects/1.png",
-  //   tag: ["All", "Web"],
-  //   gitUrl: "/",
-  //   previewUrl: "/",
-  // },
+  {
+    id: 1,
+    title: "ExpressJS-Dynamic-RBAC-role-based-access",
+    description:
+      "#There are many resources out there on creating a user account with role field in the user table. The limitation with this is that a user can only have one role at a time. Some software products such as management systems might require a user to share multiple roles and sometimes have direct permissions to perform an action.",
+    image: "/images/projects/1.png",
+    tag: ["All", "API"],
+    gitUrl:
+      "https://github.com/abrahamjo25/ExpressJS-Dynamic-RBAC-role-based-access",
+    previewUrl:
+      "https://github.com/abrahamjo25/ExpressJS-Dynamic-RBAC-role-based-access",
+  },
   {
     id: 2,
     title: "Potography Portfolio Website",
     description: "Project 2 description",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "",
+    previewUrl: "https://www.evisa.gov.et/",
   },
   {
     id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
+    title: "Coaching Training System",
+    description:
+      "A project created for Ethiopian airlines Employees coaching training process for promotion and competitve achievement",
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://ethiopianairlines.visualstudio.com/Corporate%20Coaching/_git/Coaching%20V2%20UI",
+    previewUrl: "https://etgcoaching.ethiopianairlines.com/",
   },
   {
     id: 4,
@@ -99,6 +103,11 @@ const ProjectsSection = () => {
           onClick={handleTagChange}
           name="Mobile"
           isSelected={tag === "Mobile"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="API"
+          isSelected={tag === "API"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
