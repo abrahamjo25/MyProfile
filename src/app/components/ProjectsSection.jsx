@@ -40,12 +40,13 @@ const projectsData = [
   },
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
+    title: "Real Estate Sales and Rental Services",
+    description:
+      "Discover your dream home with our top-notch real estate services. Whether you're looking to buy, sell, or rent, we offer a wide range of properties to suit all needs and budgets. Explore listings, get expert advice, and find the perfect property today.",
     image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
-    previewUrl: "/",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/abrahamjo25/Real-Estate-Sales",
+    previewUrl: "https://housebroker.vercel.app",
   },
   {
     id: 5,
