@@ -54,8 +54,8 @@ const projectsData = [
     description: "Create a professional and visually appealing website with our NextJS and Tailwind CSS template. This template is perfect for businesses, agencies, portfolios, and more. The modern design is fully customizable to match your brand, and the responsive layout ensures your website looks great on all devices. The code is well-organized and easy to edit, making it simple to create a unique website that stands out from the competition. With integration with popular plugins and tools, this template offers everything you need to create a successful online presence. Upgrade your website today with our NextJS and Tailwind CSS template.",
     image: "/images/projects/5.jpg",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/abrahamjo25/Hubnox-nextJS-UI-Template",
+    previewUrl: "https://hubnox.vercel.app/",
   },
   {
     id: 6,
