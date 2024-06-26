@@ -19,12 +19,12 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
+    title: "Efficient File Exchange App for Ethiopian Airlines Group",
+    description: "a file exchange application for Ethiopian Airlines Group that allows for the efficient parsing and exchange of files from Sabre. The application is designed to check all issued airline tickets and drop them into a local Filezilla file for easy access and management. This project required a deep understanding of airline ticketing systems and the ability to develop a robust and reliable application to meet the specific needs of Ethiopian Airlines Group. I am proud of the successful implementation of this project and the positive impact it has had on the operations of the airline.",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
     gitUrl: "",
-    previewUrl: "https://www.evisa.gov.et/",
+    previewUrl: "",
   },
   {
     id: 3,
