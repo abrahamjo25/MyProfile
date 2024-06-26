@@ -62,7 +62,7 @@ const AboutSection = () => {
         </header>
         <div className="shadow-md rounded-lg p-6">
           <h2 className="text-3xl font-semibold mb-4">
-            ✨ Here's what you'll receive:
+            ✨ Here&apos;s what you&apos;ll receive:
           </h2>
           <ul className="mb-6 gap-2 text-lg">
             <li>
@@ -154,7 +154,7 @@ const AboutSection = () => {
                   framework.
                 </li>
                 <li>
-                  ✅ **Material UI**: Bringing Google's design philosophy to
+                  ✅ **Material UI**: Bringing Google&apos;s design philosophy to
                   life.
                 </li>
                 <li>
@@ -230,7 +230,7 @@ const AboutSection = () => {
         </section>
         <footer className="text-center mt-10">
           <p className="text-lg">
-            📩 Feel free to reach out and let's embark on this exciting journey
+            📩 Feel free to reach out and let&apos;s embark on this exciting journey
             together.
           </p>
         </footer>
