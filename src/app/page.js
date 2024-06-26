@@ -13,6 +13,7 @@ export default function Home() {
       <div className="container mt-24 mx-2 md:mx-auto px-1 md:px-12 py-4">
         <HeroSection />
         {/* <AchievementsSection /> */}
+        {/* We'll add later */}
         <AboutSection />
         <ProjectsSection />
         <EmailSection />
