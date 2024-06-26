@@ -9,3 +9,4 @@ Feel free to browse through my portfolio and explore the different sections. If 
 Thank you for your interest and I look forward to the opportunity to work with you!
 
 # Built using NextJS
+
