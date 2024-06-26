@@ -12,6 +12,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <link rel="canonical" href="https://www.atlaschania.gr/" />
       <body className={inter.className}>{children}</body>
     </html>
   );
