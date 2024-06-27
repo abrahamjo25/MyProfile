@@ -142,6 +142,7 @@ const AboutSection = () => {
                   ✅ **Axios**: Reliable HTTP requests for seamless data
                   retrieval.
                 </li>
+                <li>✅ **Laravel and PHP**: Building scalable APIs.</li>
               </ul>
             </div>
             <div>
@@ -154,8 +155,8 @@ const AboutSection = () => {
                   framework.
                 </li>
                 <li>
-                  ✅ **Material UI**: Bringing Google&apos;s design philosophy to
-                  life.
+                  ✅ **Material UI**: Bringing Google&apos;s design philosophy
+                  to life.
                 </li>
                 <li>
                   ✅ **Tailwind**: Streamlining UI development with utility
@@ -230,8 +231,8 @@ const AboutSection = () => {
         </section>
         <footer className="text-center mt-10">
           <p className="text-lg">
-            📩 Feel free to reach out and let&apos;s embark on this exciting journey
-            together.
+            📩 Feel free to reach out and let&apos;s embark on this exciting
+            journey together.
           </p>
         </footer>
       </div>
