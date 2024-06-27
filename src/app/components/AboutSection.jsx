@@ -202,6 +202,7 @@ const AboutSection = () => {
               ✅ **Git, Github, GitLab, Bitbucket**: Version control and
               collaboration expertise.
             </li>
+            <li>✅ **Microsoft Azure Cloud**: Deployement.</li>
           </ul>
           <h2 className="text-3xl font-semibold mb-4 text-center">
             🏅 Other Essential Tech Stack for MERN 🏅
