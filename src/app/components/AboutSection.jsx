@@ -177,7 +177,7 @@ const AboutSection = () => {
             </div>
             <div>
               <h3 className="text-xl font-bold mt-3 flex flex-col gap-2">
-                3rd Party Library Wizardry
+                3<sub>rd</sub> Party Library Wizardry
               </h3>
               <ul className="list-inside">
                 <li>
