@@ -176,9 +176,10 @@ const AboutSection = () => {
               </ul>
             </div>
             <div>
-              <h3 className="text-xl font-bold mt-3 flex flex-col gap-2">
-                3<sub>rd</sub> Party Library Wizardry
-              </h3>
+              <p className="text-xl font-bold py-3">
+                3<sup>rd</sup> Party Library Wizardry
+              </p>
+
               <ul className="list-inside">
                 <li>
                   ✅ **Lodash**: Harnessing utility functions for streamlined
